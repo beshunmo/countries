@@ -1,0 +1,62 @@
+.--country-suggest {
+    position: relative;
+    display: inline-block;
+
+}
+
+.--country-suggest {
+    box-sizing: border-box;
+}
+
+.--country-suggest > input {
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin: 0;
+    z-index: 0;
+}
+
+.--country-suggest > ul {
+    position: absolute;
+    z-index: 2;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: -2px 0 0 0;
+    left: 0;
+    right: 0;
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+    border-top-style: dotted;
+    max-height: 200px;
+    overflow: hidden auto;
+    white-space: nowrap;
+}
+
+.--country-suggest > ul > li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.--country-suggest > ul > li:hover {
+    background-color: #ccc;
+}
+
+.--country-suggest > ul > li > img {
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.--country-suggest > ul > li > span {
+    vertical-align: middle;
+    color: #333;
+}
+
+.--country-suggest > ul > li > span > b {
+    color: black;
+}
